@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia viewer</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div id='title'>Wikipedia viewer</div>
+
+<div id='wiki-search' class='container-fluid'>
+
+  <div class='row text-center'>
+    <div class='col-md-12'>
+      <input type='text' name='search' placeholder='Search' id='input-field'/>
+        <button class='btn' id='search-button' onclick='goSearch()'><i class="fa fa-search"></i></button>
+
+      <p id='line1'>Search for a Wikipedia article</p>
+      <hr/>
+      <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><p id='line2'>Get random article</p></a>
+    </div>
+
+  </div>
+
+</div>
+
+<div id='search-results'>
+  <div id='result-list'>
+
+  </div>
+</div>
+
+<footer>Created by Cristian Gudiño</footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script  src="js/index.js"></script>
+
+</body>
+</html>

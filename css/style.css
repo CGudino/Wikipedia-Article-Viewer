@@ -1,0 +1,78 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Copperplate Gothic Light';
+  background-color: lightgray;
+}
+
+#title {
+  width: 100%;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 2%;
+}
+
+#wiki-search {
+  margin-top: 5%;
+  font-size: 130%;
+}
+
+a {
+  color: black;
+}
+
+p {
+  margin: 5px;
+}
+
+button {
+  background-color: lightgray;
+}
+
+#line1 {
+  margin-bottom: 3%;
+}
+
+#line2 {
+  margin-top: 2%;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  background-color: lightgray;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+hr {
+  width: 25%;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+#search-results {
+  margin-top: 3%;
+}
+
+.wiki-results {
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  width: 50%;
+  margin: 1% auto;
+  font-size: 200%;
+}
+
+.article-desc {
+  font-size: 50%;
+  margin: 0% 10%;
+}
+
+footer {
+  text-align: center;
+}
