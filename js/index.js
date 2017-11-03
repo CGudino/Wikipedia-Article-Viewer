@@ -10,6 +10,9 @@ function goSearch() {
   var input = $('#input-field').val();
   var fullUrl = 'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=' + input + '&format=json&callback=wikiCallback';
   
+  // Resets result list when searching for something new
+  $('#result-list').html('');
+    
   $.ajax({
   url: fullUrl,
   dataType: 'jsonp',
