@@ -34,18 +34,29 @@ button {
 }
 
 #line2 {
-  margin-top: 2%;
+  margin: 2% auto auto auto;
+  min-width: 20%;
+  max-width: 60%;
 }
 
 input[type=text] {
+  font-size: 2vh;
+  min-width: 5%;
+  max-width: 15%;
   border: none;
   border-bottom: 1px solid black;
   text-align: center;
   background-color: lightgray;
+  transition: min-width 0.4s ease-in-out;
 }
 
 input[type=text]:focus {
   outline: none;
+  min-width: 50%;
+}
+
+.fa-search {
+  cursor: pointer;
 }
 
 hr {
